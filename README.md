@@ -1,50 +1,128 @@
-# Welcome to your Expo app 👋
+<a id="readme-top"></a>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Sticker Smash for ReactNative
 
-## Get started
+<a href="https://tecnate.dev" target="_blank" rel="author">Tecnate</a> | Last Updated: 18 Nov 2024
 
-1. Install dependencies
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-   ```bash
-   npm install
-   ```
+<!-- ABOUT THE PROJECT -->
 
-2. Start the app
+## About The Project
 
-   ```bash
-    npx expo start
-   ```
+This is a tutorial project to learn about React Native using the Expo framework. See the [Source README](src-README.md) for the original documentation.
 
-In the output, you'll find options to open the app in a
+<div align="center">
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![screenshot1](screenshots/screenshot1.png "before")
+![screenshot2](screenshots/screenshot2.png "after")
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+</div>
 
-## Get a fresh project
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-When you're ready, run:
+### Built With
 
-```bash
-npm run reset-project
-```
+-   React Native
+-   Expo React Framework
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn more
+<!-- GETTING STARTED -->
 
-To learn more about developing your project with Expo, look at the following resources:
+## Getting Started
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Visit [Expo's Tutorial](https://docs.expo.dev/tutorial/introduction/) for step-by-step instructions to build the app.
 
-## Join the community
+### Prerequisites
 
-Join our community of developers creating universal apps.
+N/A
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Installation
+
+N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+At the time of this update, if you follow the tutorial, your browser will throw an error at **Step 7: Handle Platform Differences**. To fix this:
+
+1. Delete your **node_modules** directory.
+    - `rm -rf node_modules`
+2. Replace your **package.json** file's contents with that from the source repo.
+    - Visit the original [Sticker Smash Repo](https://github.com/expo/examples/tree/master/stickersmash) on GitHub for files.
+3. Reinstall your **node_modules** directory
+    - `npm install`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+There are no plans to implement additional features at this time.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+This project is for learning/demonstration and is not being actively developed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Nate: [Website](https://tecnate.dev/) | [GitHub](https://github.com/nvsmith) | [Gravatar Profile](https://gravatar.com/nvsmith435)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+#### Expo React Framework - https://expo.dev/
+
+#### README Template
+
+-   [Best README Template](https://github.com/othneildrew/Best-README-Template/tree/master)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
