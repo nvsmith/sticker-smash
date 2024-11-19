@@ -1,7 +1,11 @@
 import { Stack } from "expo-router";
-
 import { setStatusBarStyle } from "expo-status-bar";
 import { useEffect } from "react";
+
+// TESTING
+import * as SplashScreen from "expo-splash-screen";
+SplashScreen.preventAutoHideAsync();
+setTimeout(SplashScreen.hideAsync, 2000);
 
 export default function RootLayout() {
     useEffect(() => {

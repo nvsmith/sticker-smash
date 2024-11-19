@@ -72,6 +72,10 @@ N/A
 
 ## Usage
 
+In the terminal, run `npx expo start -c` to start expo and clear the cache. Type `w` when prompted to see your project render in a web browser.
+
+### Troubleshooting
+
 At the time of this update, if you follow the tutorial, your browser will throw an error at **Step 7: Handle Platform Differences**. To fix this:
 
 1. Delete your **node_modules** directory.
