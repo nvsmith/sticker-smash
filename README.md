@@ -2,7 +2,7 @@
 
 # Sticker Smash for ReactNative
 
-<a href="https://tecnate.dev" target="_blank" rel="author">Tecnate</a> | Last Updated: 18 Nov 2024
+<a href="https://tecnate.dev" target="_blank" rel="author">Tecnate</a> | Last Updated: 20 Nov 2024
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -34,7 +34,11 @@
 
 ## About The Project
 
-This is a tutorial project to learn about React Native using the Expo framework. See the [Source README](src-README.md) for the original documentation.
+This project is a hands-on exploration of React Native, built using the Expo framework as part of a tutorial. You can find the original documentation in the [Source README](src-README.md).
+
+The completed app, Sticker Smash, is an interactive photo-editing tool. Users can import photos from their device's library, enhance them with fun stickers, and customize the layout by dragging stickers to their desired position. Additionally, stickers can be resized with a simple double-tap or double-click, making the app intuitive and engaging to use.
+
+By completing this project, I deepened my understanding of React Native's capabilities for building mobile apps.
 
 <div align="center">
 
@@ -43,14 +47,10 @@ This is a tutorial project to learn about React Native using the Expo framework.
 
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 -   React Native
 -   Expo React Framework
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -60,32 +60,39 @@ Visit [Expo's Tutorial](https://docs.expo.dev/tutorial/introduction/) for step-b
 
 ### Prerequisites
 
-N/A
+Prior knowledge of:
+
+-   JavaScript, TypeScript, & React
+-   Node.js
+-   Terminal
 
 ### Installation
 
-N/A
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-   Expo Go installed on a physical device
+-   Node.js
+-   VS Code or any other preferred code editor or IDE installed
+-   A macOS, Linux, or Windows (PowerShell and WSL2) with a terminal window open
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-In the terminal, run `npx expo start -c` to start expo and clear the cache. Type `w` when prompted to see your project render in a web browser.
+In the terminal, run `npx expo start` to start Expo (or `npx expo start -c` to start and clear the cache).
+
+-   Type `w` when prompted to see your project render in a web browser.
+-   Use your mobile device's camera to scan the QR code that generates in the terminal to see your project render on your mobile screen.
 
 ### Troubleshooting
 
-At the time of this update, if you follow the tutorial, your browser will throw an error at **Step 7: Handle Platform Differences**. To fix this:
+> **Note:** At the time of this update, the current iOS SDK Version 52 is incompatible with the source files. You can still render your project in a web browser (or you can still use SDK Version 51 if you haven't updated Expo Go app yet).
 
-1. Delete your **node_modules** directory.
-    - `rm -rf node_modules`
+You will likely encounter errors if your dependencies versions don't match the original's. To fix this misalignment in versions:
+
+1. Delete your **node_modules** directory: `rm -rf node_modules`
 2. Replace your **package.json** file's contents with that from the source repo.
     - Visit the original [Sticker Smash Repo](https://github.com/expo/examples/tree/master/stickersmash) on GitHub for files.
-3. Reinstall your **node_modules** directory
-    - `npm install`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+3. Reinstall your **node_modules** directory: `npm install`
+4. If necessary, you can replace the contents of your **app.json** file with that of the original source as well.
 
 <!-- ROADMAP -->
 
@@ -93,15 +100,11 @@ At the time of this update, if you follow the tutorial, your browser will throw 
 
 There are no plans to implement additional features at this time.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
 This project is for learning/demonstration and is not being actively developed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -109,21 +112,19 @@ This project is for learning/demonstration and is not being actively developed.
 
 Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
 
 Nate: [Website](https://tecnate.dev/) | [GitHub](https://github.com/nvsmith) | [Gravatar Profile](https://gravatar.com/nvsmith435)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
-#### Expo React Framework - https://expo.dev/
+#### Expo React Framework
+
+-   https://expo.dev/
 
 #### README Template
 
